@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Calculador";
+    Layout = null;
+}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="~/Content/Calculador.css" rel="stylesheet" />
+<script src="~/Scripts/criptomonedas.js"></script>
+<header class="top-line">
+    <a href="#" class="logo"><img src="~/fonts/logo.png"></a>
+    <nav class="main-menu top-menu">
+        <ul>
+            <li class="active"><a href="@Url.Action("Index","Home")">Principal</a></li>
+            <li><a href="@Url.Action("Criptomonedas","Criptomonedas")">Criptomonedas</a></li>
+            <li><a href="@Url.Action("Calculador","Calculador")">Calcular Moneda</a></li>
+        </ul>
+    </nav>
+</header>
+<div>
+<div class="container">
+    <iframe height="375" width="197" src="https://ssltools.investing.com/currency-converter/index.php?from=17&to=12&force_lang=4"></iframe>
+    <br />
+    <table width="197"><tr><td><span style="font-size: 11px;color: #333333;text-decoration: none;">Conversor de moneda proporcionado por <a href="https://es.investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com España</a>.</span></td></tr></table>
+</div>
+</div>
+
+<footer class="container-fluid text-center bg-lightgray">
+
+    <div class="copyrights" style="margin-top:25px;">
+        <p>
+            LUMAES © 2023, All Rights Reserved
+            <br>
+            <span>Web Design By: Lucas Escalante</span>
+        </p>
+        <p><a href="https://www.linkedin.com/in/lucasmescalante" target="_blank">Linkedin <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a></p>
+    </div>
+</footer>

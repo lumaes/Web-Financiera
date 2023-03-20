@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewBag.Title = "Criptomonedas";
+    Layout = null;
+}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="~/Content/criptomonedas.css" rel="stylesheet" />
+<script src="~/Scripts/criptomonedas.js"></script>
+<header class="top-line">
+    <a href="#" class="logo"><img src="~/fonts/logo.png"></a>
+    <nav class="main-menu top-menu">
+        <ul>
+            <li class="active"><a href="@Url.Action("Index","Home")">Principal</a></li>
+            <li><a href="@Url.Action("Criptomonedas","Criptomonedas")">Criptomonedas</a></li>
+            <li><a href="@Url.Action("Calculador","Calculador")">Calcular Moneda</a></li>
+        </ul>
+    </nav>
+</header>
+<br />
+<br />
+<iframe src="https://es.widgets.investing.com/top-cryptocurrencies?theme=darkTheme" width="100%" height="80%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;">Cortesía de <a href="https://es.investing.com?utm_source=WMT&amp;utm_medium=referral&amp;utm_campaign=TOP_CRYPTOCURRENCIES&amp;utm_content=Footer%20Link" target="_blank" rel="nofollow">Investing.com</a></div>
+<br />
+<footer class="container-fluid text-center bg-lightgray">
+
+        <div class="copyrights" style="margin-top:25px;">
+            <p>LUMAES © 2023, All Rights Reserved
+                <br>
+                <span>Web Design By: Lucas Escalante</span></p>
+            <p><a href="https://www.linkedin.com/in/lucasmescalante" target="_blank">Linkedin <i class="fa fa-linkedin-square" aria-hidden="true"></i> </a></p>
+        </div>
+</footer>
